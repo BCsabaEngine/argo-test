@@ -2,13 +2,13 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 7
+replicaCount: 4
 
 image:
   repository: ghcr.io/bcsabaengine/argo-test
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0.6"
+  tag: "v1.0.7"
 
 imagePullSecrets: []
 nameOverride: ""
