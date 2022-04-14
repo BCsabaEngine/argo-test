@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "enginemq-client": "^1.7.1",
     "env-var": "^7.1.1"
   }
 }
